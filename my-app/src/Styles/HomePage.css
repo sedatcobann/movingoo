@@ -1,0 +1,95 @@
+.HomeDiv2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  min-height: 260px;
+  /*margin: 30px 0px 30px 0px;*/
+  background-color: white;
+  /* border-radius: 90px; */
+  /* font-size: 20px;
+    line-height: 1.8; */
+  /* overflow-y: scroll; */
+}
+
+.FilmList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 20px;
+  min-width: 80vw;
+}
+
+.FilmDivWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30fr 1fr 1fr;
+  margin: 10px;
+  background-color: wheat;
+}
+.FilmDivWrapper2{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30fr 1fr 1fr;
+  margin: 10px;
+  background-color: wheat;
+  font-size: 12px !important;
+}
+.FilmDivFirstRow2{
+  font-size: 12px !important;
+
+}
+.FilmDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.FilmDiv2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.FilmDivButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.FilmDivWishlistButton {
+    color: red;
+}
+
+.FilmDivWishlistButton:hover {
+    background-color: rgb(221, 174, 167);
+    border-radius: 50%;
+  }
+
+.FilmDivWatchlistButton:hover {
+  background-color: rgb(112, 207, 207);
+  border-radius: 50%;
+}
+
+.FilmDivWatchlistButton{
+    color: green;
+}
+
+.FilmDivFirstRow {
+  font-size: 20px;
+}
